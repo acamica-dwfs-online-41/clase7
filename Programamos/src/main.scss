@@ -1,0 +1,21 @@
+body {
+    background-color: $lightBkg;
+}
+
+body {
+    main {
+        .btn {
+            background: $lightBkg;
+            color: $lightColor;
+        }
+
+        form {
+            border: $lightColorBorder;
+            .btn {
+                @extend .btn;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+

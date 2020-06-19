@@ -1,0 +1,13 @@
+p {
+  margin: 4px;
+}
+
+body {
+  margin: 0;
+  font-size: 17px;
+  background-color: #FFF;
+}
+
+.boton {
+  background-color: blue;
+}

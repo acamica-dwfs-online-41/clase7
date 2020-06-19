@@ -1,0 +1,20 @@
+body.dark {
+    background-color: $darkBkg;
+}
+
+body.dark {
+    main {
+        .btn {
+            background: $darkColor;
+            color: $darkBkg;
+        }
+
+        form {
+            border: $lightColorBorder;
+            .btn {
+                @extend .btn;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

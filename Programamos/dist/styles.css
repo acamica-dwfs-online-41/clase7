@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+  }
+  
+  p {
+    color: gray;
+    font-size: 16px;
+  }
+  
+  h2 {
+    color: salmon;
+  }
+  
+  header {
+    border: 2px solid #1fb3ed;
+  }
+  header nav ul {
+    padding: 0px;
+    margin: 0x;
+    list-style: none;
+  }
+  body {
+    background-color: #FFF;
+  }
+  
+  body.dark {
+    background-color: #000;
+  }
+  
+  body main .btn, body.dark main form .btn, body main form .btn {
+    background: #FFF;
+    color: #000;
+  }
+  body main form {
+    border: 1px solid #FFF;
+  }
+  body main form .btn, body.dark main form .btn {
+    text-transform: uppercase;
+  }
+  
+  body.dark main .btn, body.dark main form .btn {
+    background: #FFF;
+    color: #000;
+  }
+  body.dark main form {
+    border: 1px solid #FFF;
+  }
+  body.dark main form .btn {
+    text-transform: uppercase;
+  }
+  
+  footer {
+    font-size: 8px;
+    text-align: center;
+  }
+
+  #expand-toggle:checked ~ header, #expand-toggle:checked ~ main, #expand-toggle:checked ~ footer {
+    background-color: #ccc;
+  }
